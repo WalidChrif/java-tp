@@ -1,0 +1,23 @@
+server:
+  port: 8085
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cigma_student
+    username: cigmastudent
+    password: cigmastudent
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate.ddl-auto : create-drop
+
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      logging:
+  level:
+    org.springframework.web: debug
+    org.hibernate: error
+    com.tppfe: debug
