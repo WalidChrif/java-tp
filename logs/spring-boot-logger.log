@@ -1,164 +1,144 @@
-2023-06-03 17:06:58,990 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 16252 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:06:58,995 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:06:58,997 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:07:00,116 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:07:00,146 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:07:01,030 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:07:01,048 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:07:01,050 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:07:01,051 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:07:01,227 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:07:01,228 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2137 ms
-2023-06-03 17:07:01,632 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-06-03 17:07:01,782 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 6 mappings in 'requestMappingHandlerMapping'
-2023-06-03 17:07:01,818 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2023-06-03 17:07:01,834 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-06-03 17:07:02,076 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:07:02,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:07:02,132 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 3.962 seconds (JVM running for 5.455)
-2023-06-03 17:23:10,597 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 15112 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:23:10,602 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:23:10,603 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:23:12,104 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:23:12,138 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:23:13,154 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:23:13,172 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:23:13,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:23:13,175 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:23:13,364 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:23:13,365 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2653 ms
-2023-06-03 17:23:13,928 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
-2023-06-03 17:23:14,296 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-06-03 17:23:14,395 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
-2023-06-03 17:23:14,426 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
-2023-06-03 17:23:14,441 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-06-03 17:23:14,686 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:23:14,727 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:23:14,744 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
-2023-06-03 17:23:14,785 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:23:14,786 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
-2023-06-03 17:23:14,794 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:23:14,798 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:23:14,812 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-06-03 17:23:14,850 ERROR org.springframework.boot.SpringApplication [main] Application run failed
-org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.tppfe.TpPfeApplication.main(TpPfeApplication.java:10)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
-	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
-	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
-	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
-	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
-	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
-	at java.base/java.util.TimSort.sort(TimSort.java:220)
-	at java.base/java.util.Arrays.sort(Arrays.java:1307)
-	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
-	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
-	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
-	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
-	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
-	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
-	... 14 common frames omitted
-2023-06-03 17:25:50,504 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 12184 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:25:50,509 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:25:50,510 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:25:51,896 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:25:51,923 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:25:52,825 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:25:52,841 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:25:52,843 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:25:52,846 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:25:53,023 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:25:53,023 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2429 ms
-2023-06-03 17:25:54,148 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:25:54,181 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:25:54,560 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.785 seconds (JVM running for 6.042)
-2023-06-03 17:26:37,898 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 6880 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:26:37,905 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:26:37,906 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:26:39,259 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:26:39,285 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:26:40,152 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:26:40,171 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:26:40,173 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:26:40,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:26:40,355 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:26:40,356 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2349 ms
-2023-06-03 17:26:41,488 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:26:41,518 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:26:41,872 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.717 seconds (JVM running for 6.014)
-2023-06-03 17:27:53,409 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 4476 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:27:53,416 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:27:53,417 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:27:54,724 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:27:54,751 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:27:55,616 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:27:55,636 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:27:55,638 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:27:55,638 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:27:55,826 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:27:55,826 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2312 ms
-2023-06-03 17:27:56,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:27:56,949 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:27:57,306 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.623 seconds (JVM running for 5.899)
-2023-06-03 17:54:20,023 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 2924 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:54:20,027 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:54:20,028 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:54:21,669 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:54:21,696 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:54:22,692 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:54:22,709 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:54:22,711 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:54:22,712 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:54:22,899 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:54:22,899 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2758 ms
-2023-06-03 17:54:24,189 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:54:24,226 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:54:24,630 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 5.735 seconds (JVM running for 7.168)
-2023-06-03 17:57:53,349 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 9304 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
-2023-06-03 17:57:53,354 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.12, Spring v5.3.27
-2023-06-03 17:57:53,355 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "local"
-2023-06-03 17:57:54,773 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-06-03 17:57:54,799 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
-2023-06-03 17:57:55,667 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
-2023-06-03 17:57:55,686 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:57:55,687 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-06-03 17:57:55,688 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
-2023-06-03 17:57:55,870 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-06-03 17:57:55,870 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2429 ms
-2023-06-03 17:57:56,991 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
-2023-06-03 17:57:57,022 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
-2023-06-03 17:57:57,389 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.838 seconds (JVM running for 6.409)
+2023-06-03 18:22:28,000 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 10048 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
+2023-06-03 18:22:28,005 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2023-06-03 18:22:28,006 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2023-06-03 18:22:29,425 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 18:22:29,452 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-06-03 18:22:30,438 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-06-03 18:22:30,458 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:22:30,460 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-03 18:22:30,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-06-03 18:22:30,620 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-03 18:22:30,620 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2518 ms
+2023-06-03 18:22:32,036 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:22:32,119 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-06-03 18:22:32,508 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 5.345 seconds (JVM running for 7.152)
+2023-06-03 18:24:09,557 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 16152 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
+2023-06-03 18:24:09,566 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2023-06-03 18:24:09,566 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2023-06-03 18:24:10,926 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 18:24:10,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-06-03 18:24:11,821 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-06-03 18:24:11,835 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:24:11,838 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-03 18:24:11,839 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-06-03 18:24:11,965 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-03 18:24:11,966 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2298 ms
+2023-06-03 18:24:13,101 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:24:13,167 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-06-03 18:24:13,534 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.71 seconds (JVM running for 6.075)
+2023-06-03 18:26:44,239 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 17252 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
+2023-06-03 18:26:44,246 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2023-06-03 18:26:44,247 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2023-06-03 18:26:45,666 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 18:26:45,692 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-06-03 18:26:46,579 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-06-03 18:26:46,595 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:26:46,598 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-03 18:26:46,599 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-06-03 18:26:46,740 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-03 18:26:46,741 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2399 ms
+2023-06-03 18:26:47,261 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-06-03 18:26:47,545 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-03 18:26:47,624 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-06-03 18:26:47,654 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-06-03 18:26:47,666 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-03 18:26:47,860 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:26:47,927 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-06-03 18:26:48,310 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.82 seconds (JVM running for 6.123)
+2023-06-03 18:28:19,311 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 15488 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
+2023-06-03 18:28:19,316 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2023-06-03 18:28:19,316 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2023-06-03 18:28:20,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 18:28:20,692 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-06-03 18:28:21,593 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-06-03 18:28:21,609 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:28:21,613 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-03 18:28:21,614 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-06-03 18:28:21,747 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-03 18:28:21,747 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2338 ms
+2023-06-03 18:28:22,270 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-06-03 18:28:22,549 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-03 18:28:22,627 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-06-03 18:28:22,658 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-06-03 18:28:22,671 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-03 18:28:22,863 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:28:22,933 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-06-03 18:28:23,314 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 4.737 seconds (JVM running for 5.98)
+2023-06-03 18:28:38,979 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 18:28:38,989 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-03 18:28:38,990 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected StandardServletMultipartResolver
+2023-06-03 18:28:38,990 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected AcceptHeaderLocaleResolver
+2023-06-03 18:28:38,991 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected FixedThemeResolver
+2023-06-03 18:28:38,994 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1eab8437
+2023-06-03 18:28:38,995 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b322873
+2023-06-03 18:28:38,995 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-03 18:28:38,995 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Completed initialization in 5 ms
+2023-06-03 18:28:39,012 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-1] GET "/api/v2/api-docs", parameters={}
+2023-06-03 18:28:39,026 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-06-03 18:28:39,029 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8085-exec-1] Resource not found
+2023-06-03 18:28:39,030 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Completed 404 NOT_FOUND
+2023-06-03 18:28:39,038 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2023-06-03 18:28:39,042 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-06-03 18:28:39,086 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8085-exec-1] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-06-03 18:28:39,092 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Exiting from "ERROR" dispatch, status 404
+2023-06-03 18:28:39,176 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-2] GET "/favicon.ico", parameters={}
+2023-06-03 18:28:39,177 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-06-03 18:28:39,179 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8085-exec-2] Resource not found
+2023-06-03 18:28:39,180 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Completed 404 NOT_FOUND
+2023-06-03 18:28:39,180 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2023-06-03 18:28:39,181 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-06-03 18:28:39,209 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8085-exec-2] Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-03 18:28:39,210 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-2] Writing [{timestamp=Sat Jun 03 18:28:39 WEST 2023, status=404, error=Not Found, path=/favicon.ico}]
+2023-06-03 18:28:39,258 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Exiting from "ERROR" dispatch, status 404
+2023-06-03 18:29:05,051 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-4] GET "/api/v2/api-docs", parameters={}
+2023-06-03 18:29:05,053 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-06-03 18:29:05,057 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8085-exec-4] Resource not found
+2023-06-03 18:29:05,057 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-4] Completed 404 NOT_FOUND
+2023-06-03 18:29:05,059 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-4] "ERROR" dispatch for GET "/error", parameters={}
+2023-06-03 18:29:05,059 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-4] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-06-03 18:29:05,062 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8085-exec-4] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-06-03 18:29:05,062 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-4] Exiting from "ERROR" dispatch, status 404
+2023-06-03 18:29:33,157 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 2960 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
+2023-06-03 18:29:33,163 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2023-06-03 18:29:33,164 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: local
+2023-06-03 18:29:34,655 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-03 18:29:34,690 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-06-03 18:29:35,709 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-06-03 18:29:35,726 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:29:35,728 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-03 18:29:35,729 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-06-03 18:29:35,870 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-03 18:29:35,872 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2572 ms
+2023-06-03 18:29:36,520 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-06-03 18:29:36,832 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-03 18:29:36,905 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-06-03 18:29:36,938 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-06-03 18:29:36,950 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-03 18:29:37,167 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-06-03 18:29:37,239 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-06-03 18:29:37,623 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 5.282 seconds (JVM running for 6.673)
+2023-06-03 18:29:50,596 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 18:29:50,596 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-03 18:29:50,596 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected StandardServletMultipartResolver
+2023-06-03 18:29:50,596 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected AcceptHeaderLocaleResolver
+2023-06-03 18:29:50,598 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected FixedThemeResolver
+2023-06-03 18:29:50,599 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@12fccff0
+2023-06-03 18:29:50,600 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@1b3a9ef4
+2023-06-03 18:29:50,600 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-03 18:29:50,601 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Completed initialization in 5 ms
+2023-06-03 18:29:50,616 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-1] GET "/api/v2/api-docs", parameters={}
+2023-06-03 18:29:50,629 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-06-03 18:29:50,632 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8085-exec-1] Resource not found
+2023-06-03 18:29:50,633 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Completed 404 NOT_FOUND
+2023-06-03 18:29:50,642 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2023-06-03 18:29:50,645 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-06-03 18:29:50,693 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8085-exec-1] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-06-03 18:29:50,699 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Exiting from "ERROR" dispatch, status 404
+2023-06-03 18:29:51,917 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-2] GET "/api/v2/api-docs", parameters={}
+2023-06-03 18:29:51,918 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-06-03 18:29:51,920 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8085-exec-2] Resource not found
+2023-06-03 18:29:51,920 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Completed 404 NOT_FOUND
+2023-06-03 18:29:51,921 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8085-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2023-06-03 18:29:51,922 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8085-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-06-03 18:29:51,925 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8085-exec-2] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-06-03 18:29:51,925 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Exiting from "ERROR" dispatch, status 404
