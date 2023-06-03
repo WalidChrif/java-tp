@@ -16,8 +16,8 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-      logging:
+logging:
   level:
     org.springframework.web: debug
-    org.hibernate: error
     com.tppfe: debug
+    org.hibernate: debug
