@@ -26,6 +26,5 @@ public class TpPfeApplication {
                 env.getProperty("server.port")
 
         );
-        System.out.println("hello world");
     }
 }
