@@ -10,7 +10,8 @@ spring:
   jpa:
     database: mysql
     show-sql: true
-    hibernate.ddl-auto : create-drop
+    hibernate:
+     ddl-auto : create
 
 
   mvc:
