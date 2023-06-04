@@ -8,8 +8,8 @@ public interface StudentService {
 
     StudentDTO saveStudent(StudentDTO studentDTO);
     StudentDTO updateStudent(StudentDTO studentDTO);
-    boolean deleteStudent(long id);
-    List<StudentDTO> selectAll();
+    Boolean deleteStudent(Long id);
+    List<StudentDTO> findAll();
 
 
 

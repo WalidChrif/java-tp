@@ -4,40 +4,20 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Objects;
 @Entity
-@Table
+@Table(name = "student_table")
 public class Student {
 
     @Id
-    @Column(name="id_student")
-    private long id ;
-    @Column(name = "name_student")
+    @Column(name="student_id")
+    private Long id ;
+    @Column(name = "student_name")
     private String name;
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Student)) return false;
-
-        Student student = (Student) o;
-
-        if (id != student.id) return false;
-        return Objects.equals(name, student.name);
-    }
-
-    @Override
-    public int hashCode() {
-        int result = (int) (id ^ (id >>> 32));
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        return result;
-    }
-
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

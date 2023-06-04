@@ -7,19 +7,18 @@ import java.util.List;
 
 @Repository(value = "studentRepo1")
 public class StudentRepositoryIpml implements StudentRepository{
-    public StudentDTO saveStudent(StudentDTO studentDTO) {
+    public StudentDTO save(StudentDTO studentDTO) {
+        return null;
+    }
+    public StudentDTO update(StudentDTO studentDTO) {
         return null;
     }
 
-    public StudentDTO updateStudent(StudentDTO studentDTO) {
-        return null;
-    }
-
-    public boolean deleteStudent(long id) {
+    public Boolean delete(Long id) {
         return true;
     }
 
-    public List<StudentDTO> selectAll() {
+    public List<StudentDTO> findAll() {
         return null;
     }
 }

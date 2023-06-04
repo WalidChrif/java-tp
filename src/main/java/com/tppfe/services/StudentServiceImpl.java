@@ -1,7 +1,7 @@
 package com.tppfe.services;
 
 import com.tppfe.models.StudentDTO;
-import com.tppfe.repositories.StudentRepositoryIpml;
+import com.tppfe.repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
@@ -10,26 +10,26 @@ import java.util.List;
 @Service(value = "studentService1")
 public class StudentServiceImpl implements StudentService{
 
-    StudentRepositoryIpml studentRepositoryIpml;
+    StudentRepository studentRepository;
 
-    public StudentServiceImpl(@Qualifier("studentRepo1") StudentRepositoryIpml studentRepositoryIpml) {
-        this.studentRepositoryIpml = studentRepositoryIpml;
+    public StudentServiceImpl(@Qualifier("studentRepo1") StudentRepository studentRepository) {
+        this.studentRepository = studentRepository;
     }
 
     public StudentDTO saveStudent(StudentDTO studentDTO) {
-        return studentRepositoryIpml.saveStudent(studentDTO);
+        return studentRepository.save(studentDTO);
     }
 
     public StudentDTO updateStudent(StudentDTO studentDTO) {
-        return studentRepositoryIpml.updateStudent(studentDTO);
+        return studentRepository.update(studentDTO);
     }
 
-    public boolean deleteStudent(long id) {
-        return studentRepositoryIpml.deleteStudent(id);
+    public Boolean deleteStudent(Long id) {
+        return studentRepository.delete(id);
     }
 
-    public List<StudentDTO> selectAll() {
-        return studentRepositoryIpml.selectAll();
+    public List<StudentDTO> findAll() {
+        return studentRepository.findAll();
     }
 
 

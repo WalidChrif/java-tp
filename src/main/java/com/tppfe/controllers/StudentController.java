@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/student")
 public class StudentController {
 
-    StudentService studentService;
+    private StudentService studentService;
 
     public StudentController(@Qualifier("studentService1") StudentService studentService) {
         this.studentService = studentService;
@@ -28,13 +28,13 @@ public class StudentController {
     }
 
     @DeleteMapping("/{id}")
-    public boolean deleteStudent(@PathVariable long id){
+    public Boolean deleteStudent(@PathVariable Long id){
         return studentService.deleteStudent(id);
     }
 
     @GetMapping
-    public List<StudentDTO> selectAll(){
-       return  studentService.selectAll();
+    public List<StudentDTO> findAll(){
+       return  studentService.findAll();
     }
 
 }
