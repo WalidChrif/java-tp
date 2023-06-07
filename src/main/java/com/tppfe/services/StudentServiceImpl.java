@@ -1,8 +1,11 @@
 package com.tppfe.services;
 
+import com.tppfe.controllers.StudentController;
 import com.tppfe.mappers.StudentMapper;
 import com.tppfe.models.StudentDTO;
 import com.tppfe.repositories.StudentRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -12,8 +15,8 @@ import java.util.List;
 @Service("studentService1")
 public class StudentServiceImpl implements StudentService{
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(StudentServiceImpl.class);
     private final StudentRepository studentRepository;
-
     private final StudentMapper studentMapper;
 
     public StudentServiceImpl(@Qualifier("studentRepo1") StudentRepository studentRepository
@@ -24,11 +27,13 @@ public class StudentServiceImpl implements StudentService{
 
 
     public StudentDTO saveStudent(StudentDTO studentDTO) {
+        LOGGER.debug("start method saveStudent dto : {} " , studentDTO);
         return studentMapper.convertToDTO(studentRepository.save(studentMapper.convertToStudent(studentDTO)));
     }
 
 
     public Boolean deleteStudent(Long id) {
+        LOGGER.debug("start method delete Student id : {} " ,id);
         studentRepository.deleteById(id);
         return true;
     }
