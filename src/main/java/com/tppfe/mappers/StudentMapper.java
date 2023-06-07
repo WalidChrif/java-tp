@@ -1,6 +1,7 @@
 package com.tppfe.mappers;
 
 import com.tppfe.entities.Student;
+import com.tppfe.entities.StudentId;
 import com.tppfe.models.StudentDTO;
 import org.springframework.stereotype.Component;
 
@@ -13,14 +14,14 @@ public class StudentMapper {
 
     public StudentDTO convertToDTO(Student student) {
         StudentDTO studentDTO = new StudentDTO();
-        studentDTO.setId(student.getId());
+        studentDTO.setId(student.getStudentId().getId());
         studentDTO.setName(student.getName());
         return studentDTO;
     }
 
     public Student convertToStudent(StudentDTO studentDTO) {
         Student student = new Student();
-        student.setId(studentDTO.getId());
+        student.setStudentId(new StudentId(studentDTO.getId(),"code"));
         student.setName(studentDTO.getName());
         return student;
     }
