@@ -11,15 +11,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/student")
 public class StudentController {
+    private final StudentService studentService;
 
-    @Autowired
-    private StudentService studentService;
-
-//    public StudentController(@Qualifier("studentService1") StudentService studentService) {
-//        this.studentService = studentService;
-//    }
+    public StudentController(@Qualifier("studentService1") StudentService studentService) {
+        this.studentService = studentService;
+    }
     @PostMapping
-    public StudentDTO saveStudent(StudentDTO studentDTO){
+    public StudentDTO saveStudent(@RequestBody StudentDTO studentDTO){
         return studentService.saveStudent(studentDTO);
     }
     @DeleteMapping("/{id}")

@@ -9,20 +9,18 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service("studentService1")
 public class StudentServiceImpl implements StudentService{
 
-    @Autowired
-    StudentRepository studentRepository;
+    private final StudentRepository studentRepository;
 
-    @Autowired
-    private StudentMapper studentMapper;
+    private final StudentMapper studentMapper;
 
-//    public StudentServiceImpl(@Qualifier("studentRepo1") StudentRepository studentRepository
-//    , StudentMapper studentMapper) {
-//        this.studentRepository = studentRepository;
-//        this.studentMapper = studentMapper;
-//    }
+    public StudentServiceImpl(@Qualifier("studentRepo1") StudentRepository studentRepository
+    , StudentMapper studentMapper) {
+        this.studentRepository = studentRepository;
+        this.studentMapper = studentMapper;
+    }
 
 
     public StudentDTO saveStudent(StudentDTO studentDTO) {
