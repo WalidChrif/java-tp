@@ -4,14 +4,18 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cigma_student
+    url: jdbc:mysql://localhost:3306/cigma_student?useSSL=false
     username: cigmastudent
     password: cigmastudent
   jpa:
     database: mysql
     show-sql: true
-    hibernate.ddl-auto : create-drop
+    hibernate.ddl-auto: create-drop
 
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 logging:
   level:
     org.springframework.web: error
