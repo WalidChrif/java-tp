@@ -1,13 +1,10 @@
 package com.tppfe.repositories;
 
 import com.tppfe.entities.Student;
-import com.tppfe.models.StudentDTO;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
+@Repository
+public interface StudentRepository extends JpaRepository<Student, Long> {
 
-public interface StudentRepository {
-    StudentDTO save(Student student);
-    StudentDTO update(Student student);
-    Boolean delete(Long id);
-    List<StudentDTO> findAll ();
 }

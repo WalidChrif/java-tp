@@ -1,14 +1,13 @@
 package com.tppfe.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+
 @Entity
 @Table(name = "student_table")
 public class Student {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name="student_id")
     private Long id ;
     @Column(name = "student_name")
