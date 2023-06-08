@@ -4,6 +4,8 @@ import javax.persistence.*;
 
 @Entity
 //@IdClass(StudentId.class)
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name = "type")
 @Table(name = "student_table")
 public class Student {
 
