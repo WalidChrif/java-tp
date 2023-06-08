@@ -7,8 +7,13 @@ import javax.persistence.*;
 @Table(name = "student_table")
 public class Student {
 
-    @EmbeddedId
-    private StudentId studentId;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+//    @EmbeddedId
+//    private StudentId studentId;
     @Column(name = "student_name")
     private String name;
     @Embedded
@@ -19,18 +24,25 @@ public class Student {
     })
     private Address address;
 
-//    @Id
-//    private Long id;
-//    @Id
-//    private String code;
+    @Transient
+    private String calculatedBirthDate; //mostly calculated fields
 
-    public StudentId getStudentId() {
-        return studentId;
+    public Long getId() {
+        return id;
     }
 
-    public void setStudentId(StudentId studentId) {
-        this.studentId = studentId;
+    public void setId(Long id) {
+        this.id = id;
     }
+
+
+//    public StudentId getStudentId() {
+//        return studentId;
+//    }
+//
+//    public void setStudentId(StudentId studentId) {
+//        this.studentId = studentId;
+//    }
 
     public String getName() {
         return name;
@@ -46,20 +58,14 @@ public class Student {
     public void setAddress(Address address) {
         this.address = address;
     }
+
     @Override
     public String toString() {
         return "Student{" +
-                "studentId=" + studentId +
+                "studentId=" + id +
                 ", address=" + address +
                 ", name='" + name + '\'' +
                 '}';
     }
 
-//    @Override
-//    public String toString() {
-//        return "Student{" +
-//                "id=" + id +
-//                ", code='" + code + '\'' +
-//                '}';
-//    }
 }

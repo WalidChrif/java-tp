@@ -14,14 +14,16 @@ public class StudentMapper {
 
     public StudentDTO convertToDTO(Student student) {
         StudentDTO studentDTO = new StudentDTO();
-        studentDTO.setId(student.getStudentId().getId());
+//        studentDTO.setId(student.getStudentId().getId());
+        studentDTO.setId(student.getId());
         studentDTO.setName(student.getName());
         return studentDTO;
     }
 
     public Student convertToStudent(StudentDTO studentDTO) {
         Student student = new Student();
-        student.setStudentId(new StudentId(studentDTO.getId(),"code"));
+//        student.setStudentId(new StudentId(studentDTO.getId(),"code"));
+        student.setId(studentDTO.getId());
         student.setName(studentDTO.getName());
         return student;
     }
