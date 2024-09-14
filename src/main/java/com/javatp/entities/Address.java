@@ -1,4 +1,4 @@
-package com.tppfe.entities;
+package com.javatp.entities;
 
 import javax.persistence.Embeddable;
 

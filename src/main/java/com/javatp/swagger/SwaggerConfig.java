@@ -1,4 +1,4 @@
-package com.tppfe.swagger;
+package com.javatp.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

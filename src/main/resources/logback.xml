@@ -39,8 +39,8 @@
         <appender-ref ref="Console" />
     </root>
 
-    <!-- LOG "com.tppfe*" at TRACE level -->
-    <logger name="com.tppfe" level="debug" additivity="false">
+    <!-- LOG "com.javatp*" at TRACE level -->
+    <logger name="com.javatp" level="debug" additivity="false">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </logger>

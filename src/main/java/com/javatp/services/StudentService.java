@@ -1,6 +1,6 @@
-package com.tppfe.services;
+package com.javatp.services;
 
-import com.tppfe.models.StudentDTO;
+import com.javatp.models.StudentDTO;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

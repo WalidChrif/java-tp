@@ -1,8 +1,8 @@
-package com.tppfe.services;
+package com.javatp.services;
 
-import com.tppfe.mappers.StudentMapper;
-import com.tppfe.models.StudentDTO;
-import com.tppfe.repositories.StudentRepository;
+import com.javatp.mappers.StudentMapper;
+import com.javatp.models.StudentDTO;
+import com.javatp.repositories.StudentRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
