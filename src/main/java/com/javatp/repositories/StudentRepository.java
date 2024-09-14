@@ -1,6 +1,6 @@
-package com.tppfe.repositories;
+package com.javatp.repositories;
 
-import com.tppfe.entities.Student;
+import com.javatp.entities.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.tppfe.entities;
+package com.javatp.entities;
 
 import javax.persistence.*;
 
@@ -10,12 +10,12 @@ import javax.persistence.*;
 public class Student {
 
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    private Long id;
 
-//    @EmbeddedId
-//    private StudentId studentId;
+    @EmbeddedId
+    private StudentId studentId;
     @Column(name = "student_name")
     private String name;
     @Embedded
@@ -29,22 +29,22 @@ public class Student {
     @Transient
     private String calculatedBirthDate; //mostly calculated fields
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-
-//    public StudentId getStudentId() {
-//        return studentId;
+//    public Long getId() {
+//        return id;
 //    }
 //
-//    public void setStudentId(StudentId studentId) {
-//        this.studentId = studentId;
+//    public void setId(Long id) {
+//        this.id = id;
 //    }
+
+
+    public StudentId getStudentId() {
+        return studentId;
+    }
+
+    public void setStudentId(StudentId studentId) {
+        this.studentId = studentId;
+    }
 
     public String getName() {
         return name;
@@ -64,10 +64,10 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "studentId=" + id +
-                ", address=" + address +
+                "studentId=" + studentId +
                 ", name='" + name + '\'' +
+                ", address=" + address +
+                ", calculatedBirthDate='" + calculatedBirthDate + '\'' +
                 '}';
     }
-
 }

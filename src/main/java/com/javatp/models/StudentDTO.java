@@ -1,4 +1,4 @@
-package com.tppfe.models;
+package com.javatp.models;
 
 public class StudentDTO {
 

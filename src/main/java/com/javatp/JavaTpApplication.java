@@ -1,4 +1,4 @@
-package com.tppfe;
+package com.javatp;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,11 +10,11 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 @SpringBootApplication
-public class TpPfeApplication {
-    private static final Logger LOGGER = LoggerFactory.getLogger(TpPfeApplication.class);
+public class JavaTpApplication {
+    private static final Logger LOGGER = LoggerFactory.getLogger(JavaTpApplication.class);
 
     public static void main(String[] args) throws UnknownHostException {
-        SpringApplication app = new SpringApplication(TpPfeApplication.class);
+        SpringApplication app = new SpringApplication(JavaTpApplication.class);
         Environment env = app.run(args).getEnvironment();
 
         LOGGER.info("Access URLs:\n----------------------------------------------------------\n\t" +

@@ -1,6 +1,6 @@
-package com.tppfe;
+package com.javatp;
 
-import com.tppfe.entities.StudentId;
+import com.javatp.entities.StudentId;
 
 import java.io.*;
 

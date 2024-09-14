@@ -1,0 +1,31 @@
+2023-06-18 20:41:34,682 INFO org.springframework.boot.StartupInfoLogger [main] Starting TpPfeApplication using Java 17.0.5 on DESKTOP-5MA7Q93 with PID 3084 (C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe\target\classes started by dghay in C:\Users\dghay\OneDrive\Bureau\IntelliJProjects\tp-pfe)
+2023-06-18 20:41:34,690 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.1, Spring v5.3.8
+2023-06-18 20:41:34,691 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2023-06-18 20:41:36,224 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-18 20:41:36,316 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2023-06-18 20:41:37,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8084 (http)
+2023-06-18 20:41:37,211 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8084"]
+2023-06-18 20:41:37,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-18 20:41:37,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-06-18 20:41:37,360 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-18 20:41:37,361 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2570 ms
+2023-06-18 20:41:37,518 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-06-18 20:41:37,789 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-06-18 20:41:40,595 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-18 20:41:41,798 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-18 20:41:41,952 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 10 mappings in 'requestMappingHandlerMapping'
+2023-06-18 20:41:42,243 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-18 20:41:42,319 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-06-18 20:41:42,350 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-06-18 20:41:42,362 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-18 20:41:42,507 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8084"]
+2023-06-18 20:41:42,697 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8084 (http) with context path ''
+2023-06-18 20:41:43,006 INFO org.springframework.boot.StartupInfoLogger [main] Started TpPfeApplication in 9.103 seconds (JVM running for 25.027)
+2023-06-18 20:41:43,012 INFO com.javatp.JavaTpApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8084/swagger-ui/#/
+	External: 	http://192.168.0.144:8084/swagger-ui/#/
+----------------------------------------------------------
+2023-06-18 20:42:48,893 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-18 20:42:48,973 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-06-18 20:42:48,991 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
